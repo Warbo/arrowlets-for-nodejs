@@ -1,0 +1,17 @@
+{
+"name": "arrowlets",
+"version": 0.1.0
+"description": "My node port of Arrowlets, an implementation of the 'arrows' functional programming paradigm that keeps program flow composable, asynchronous, parallel and, most importantly, separate from function definition.",
+"keywords: ["arrow", "monad", "functional", "composable", "asynchronous"],
+"homepage": "",
+"author": {"name": "Chris Warburton", "email": "ChrisWarbo@gmail.com", "url": "http://www.chriswarbo.net"},
+"contributors": [
+	{"name": "Khoo Yit Phang", "email": "khooyp@cs.umd.edu", "url": "http://www.cs.umd.edu/~khooyp/Khoo_Yit_Phang.html"},
+	{"name": "Michael Hicks", "email": "mwh@cs.umd.edu", "url": "http://www.cs.umd.edu/~mwh/"},
+	{"name": "Jeff Foster", "email": "jfoster@cs.umd.edu", "url": "http://www.cs.umd.edu/~jfoster/"},
+	{"name": "Vibha Sazawal", "email": "vibha@cs.umd.edu", "url": "http://www.cs.umd.edu/~vibha/"}
+],
+"main": "arrowlets",
+"repository" : {"type": "git", "url": "https://git.gitorious.org/arrowlets-node/arrowlets-node.git"},
+"dependencies": {}
+}

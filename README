@@ -1,0 +1,20 @@
+This is a port of the Arrowlets library to Node.js. This port was started by Chris Warburton, but Arrowlets itself was written by Khoo Yit Phang, Michael Hicks, Jeff Foster and Vibha Sazawal.
+
+Arrowlets is a Javascript implementation of arrows, a functional programming technique for keeping function definition separate from program flow.
+
+Arrows for functional programmers:
+
+If you're familiar with functional programming, then you may be familiar with the concept of "monads". Arrows are a generalisation of monads, which allow for more than just sequential composition.
+
+Arrows for everyone else:
+
+The best way to learn about arrows is to see them being used. Let's say we have the following code:
+
+var a = function() {
+    do_something():
+    b();
+};
+var b = function() {
+    something_else();
+    c();
+};
